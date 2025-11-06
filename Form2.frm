@@ -21,12 +21,14 @@ Begin VB.Form Form2
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
+
       EndProperty
       Height          =   285
       Left            =   3600
       TabIndex        =   2
       Top             =   990
       Width           =   1815
+
    End
    Begin VB.TextBox Text1 
       Height          =   375
@@ -35,6 +37,7 @@ Begin VB.Form Form2
       Top             =   960
       Width           =   2895
    End
+
    Begin MSDataGridLib.DataGrid DataGrid1 
       Bindings        =   "Form2.frx":0000
       Height          =   3015
@@ -66,6 +69,7 @@ Begin VB.Form Form2
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
+
       ColumnCount     =   2
       BeginProperty Column00 
          DataField       =   ""
