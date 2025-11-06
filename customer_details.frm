@@ -77,6 +77,7 @@ Begin VB.Form Form2
          EndProperty
       EndProperty
    End
+
    Begin MSAdodcLib.Adodc Adodc1 
       Height          =   495
       Left            =   11040
@@ -124,6 +125,7 @@ Begin VB.Form Form2
       EndProperty
       _Version        =   393216
    End
+
    Begin VB.Frame Frame1 
       Caption         =   "Customer details"
       BeginProperty Font 
@@ -166,6 +168,7 @@ Begin VB.Form Form2
          Top             =   1080
          Width           =   1815
       End
+
       Begin VB.TextBox Text4 
          DataField       =   "Car Plate number"
          DataSource      =   "Adodc1"
@@ -192,6 +195,7 @@ Begin VB.Form Form2
          Top             =   2280
          Width           =   1215
       End
+
       Begin VB.CommandButton Command2 
          Caption         =   "UPDATE"
          BeginProperty Font 
