@@ -1,4 +1,5 @@
 VERSION 5.00
+
 Begin VB.Form Form1 
    BackColor       =   &H00808080&
    Caption         =   "Form1"
@@ -10,6 +11,7 @@ Begin VB.Form Form1
    ScaleHeight     =   8790
    ScaleWidth      =   16950
    StartUpPosition =   3  'Windows Default
+
    Begin VB.CommandButton Command2 
       Caption         =   "Search"
       BeginProperty Font 
@@ -27,6 +29,7 @@ Begin VB.Form Form1
       Top             =   1920
       Width           =   1215
    End
+
    Begin VB.TextBox Text1 
       ForeColor       =   &H8000000A&
       Height          =   375
@@ -36,6 +39,7 @@ Begin VB.Form Form1
       Top             =   1920
       Width           =   2175
    End
+
    Begin VB.CommandButton Command1 
       Caption         =   "EXIT"
       BeginProperty Font 
@@ -53,6 +57,7 @@ Begin VB.Form Form1
       Top             =   4920
       Width           =   2415
    End
+
    Begin VB.PictureBox Picture1 
       BackColor       =   &H00C0E0FF&
       Height          =   1215
@@ -82,6 +87,7 @@ Begin VB.Form Form1
          Width           =   9375
       End
    End
+
    Begin VB.CommandButton Command6 
       BackColor       =   &H8000000D&
       Caption         =   "Book a parking space"
