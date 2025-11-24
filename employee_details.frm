@@ -1,7 +1,9 @@
 VERSION 5.00
+
 Object = "{67397AA1-7FB1-11D0-B148-00A0C922E820}#6.0#0"; "MSADODC.OCX"
 Object = "{CDE57A40-8B86-11D0-B3C6-00A0C90AEA82}#1.0#0"; "MSDATGRD.OCX"
 Begin VB.Form Form4 
+
    BackColor       =   &H00808080&
    Caption         =   "Form4"
    ClientHeight    =   7875
@@ -13,6 +15,7 @@ Begin VB.Form Form4
    ScaleWidth      =   15285
    StartUpPosition =   3  'Windows Default
    Begin MSDataGridLib.DataGrid DataGrid1 
+
       Bindings        =   "employee_details.frx":0000
       Height          =   2295
       Left            =   240
@@ -162,6 +165,7 @@ Begin VB.Form Form4
          Top             =   3240
          Width           =   1575
       End
+
       Begin VB.CommandButton Command2 
          Caption         =   "UPDATE"
          BeginProperty Font 
@@ -179,6 +183,7 @@ Begin VB.Form Form4
          Top             =   3240
          Width           =   1335
       End
+
       Begin VB.CommandButton Command1 
          Caption         =   "ADD NEW"
          BeginProperty Font 
@@ -196,6 +201,7 @@ Begin VB.Form Form4
          Top             =   3240
          Width           =   1215
       End
+
       Begin VB.TextBox Text3 
          Height          =   375
          Left            =   3120
@@ -268,6 +274,7 @@ Begin VB.Form Form4
          Top             =   2160
          Width           =   1695
       End
+
       Begin VB.Label Label2 
          Caption         =   "Contacts"
          BeginProperty Font 
@@ -285,6 +292,7 @@ Begin VB.Form Form4
          Top             =   1320
          Width           =   1815
       End
+
       Begin VB.Label Label1 
          Caption         =   "Employee Name"
          BeginProperty Font 
