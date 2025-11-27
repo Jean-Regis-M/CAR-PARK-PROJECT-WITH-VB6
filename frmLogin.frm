@@ -1,4 +1,5 @@
 VERSION 5.00
+
 Begin VB.Form frmLogin 
    BackColor       =   &H00C0C0C0&
    BorderStyle     =   3  'Fixed Dialog
@@ -22,6 +23,7 @@ Begin VB.Form frmLogin
       Top             =   1560
       Width           =   2325
    End
+
    Begin VB.CommandButton cmdOK 
       Caption         =   "OK"
       Default         =   -1  'True
@@ -40,6 +42,7 @@ Begin VB.Form frmLogin
       Top             =   3480
       Width           =   1140
    End
+
    Begin VB.CommandButton cmdCancel 
       Cancel          =   -1  'True
       Caption         =   "Cancel"
@@ -58,6 +61,7 @@ Begin VB.Form frmLogin
       Top             =   3480
       Width           =   1140
    End
+
    Begin VB.TextBox txtPassword 
       Height          =   345
       IMEMode         =   3  'DISABLE
@@ -67,6 +71,7 @@ Begin VB.Form frmLogin
       Top             =   2640
       Width           =   2325
    End
+
    Begin VB.Label lblLabels 
       Caption         =   "&User Name:"
       BeginProperty Font 
@@ -85,6 +90,7 @@ Begin VB.Form frmLogin
       Top             =   1560
       Width           =   1320
    End
+
    Begin VB.Label lblLabels 
       Caption         =   "&Password:"
       BeginProperty Font 
@@ -103,7 +109,10 @@ Begin VB.Form frmLogin
       Top             =   2640
       Width           =   1320
    End
+
 End
+
+
 Attribute VB_Name = "frmLogin"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
@@ -137,6 +146,7 @@ If txtUserName.Text = "admin" Then
     End If
     End If
 End Sub
+
 
 
 
